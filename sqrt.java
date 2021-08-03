@@ -2,7 +2,7 @@ import java.util.*;
 
 class Solution {
     public int mySqrt(int x) {
-        int oddN = 1, res = 0;
+        int oddN = 1,res = 0;
         while (x > 0) {
             x -= oddN;
             oddN += 2;
